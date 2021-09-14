@@ -1,0 +1,25 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: sensibility
+  Date: 2021/8/19
+  Time: 18:46
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8"
+         isErrorPage="true"
+         pageEncoding="utf-8"
+         language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<!-- 这是html注释 -->
+    这是b.jsp页面数据
+    <%
+        //单行Java注释
+        /*多行Java注释*/
+        <%-- jsp注释 --%>
+    %>
+</body>
+</html>
